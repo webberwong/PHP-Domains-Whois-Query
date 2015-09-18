@@ -1,0 +1,191 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "139e91a34c2e01b52ff830c71ac1f03e",
+    "packages": [
+        {
+            "name": "novutec/domainparser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3name/DomainParser.git",
+                "reference": "c5d0d845e5a88e1c28c9caa78d8834c340f19893"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/3name/DomainParser/c5d0d845e5a88e1c28c9caa78d8834c340f19893.zip",
+                "reference": "c5d0d845e5a88e1c28c9caa78d8834c340f19893",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Parser.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A domain name parser to parse and to validate a domain name.",
+            "homepage": "https://github.com/3name/DomainParser/",
+            "keywords": [
+                "domain",
+                "domainparser",
+                "php"
+            ],
+            "time": "2015-04-11 21:37:57"
+        },
+        {
+            "name": "novutec/whoisparser",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3name/WhoisParser.git",
+                "reference": "650c7cb4e628ed325b7afb4807461879625012b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/3name/WhoisParser/650c7cb4e628ed325b7afb4807461879625012b6.zip",
+                "reference": "650c7cb4e628ed325b7afb4807461879625012b6",
+                "shasum": ""
+            },
+            "require": {
+                "novutec/domainparser": ">=2.0.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Novutec\\WhoisParser\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Lookup domain names, IP addresses and AS numbers by WHOIS.",
+            "homepage": "https://github.com/3name/WhoisParser/",
+            "keywords": [
+                "php",
+                "whois",
+                "whoisparser"
+            ],
+            "time": "2015-05-03 20:32:30"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "4.6.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "ae15ff9ab12c82bdd93a1acd7a7564fbb007b9c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/php-curl-class/php-curl-class/ae15ff9ab12c82bdd93a1acd7a7564fbb007b9c5.zip",
+                "reference": "ae15ff9ab12c82bdd93a1acd7a7564fbb007b9c5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "json",
+                "php",
+                "requests",
+                "rest",
+                "restful",
+                "web service",
+                "xml"
+            ],
+            "time": "2015-08-21 22:48:09"
+        },
+        {
+            "name": "true/punycode",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/true/php-punycode.git",
+                "reference": "b672918d992b84f8016bbe353a42516928393c63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/true/php-punycode/b672918d992b84f8016bbe353a42516928393c63.zip",
+                "reference": "b672918d992b84f8016bbe353a42516928393c63",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.7",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TrueBV\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Renan Gonçalves",
+                    "email": "renan.saddam@gmail.com"
+                }
+            ],
+            "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+            "homepage": "https://github.com/true/php-punycode",
+            "keywords": [
+                "idna",
+                "punycode"
+            ],
+            "time": "2015-09-01 14:53:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

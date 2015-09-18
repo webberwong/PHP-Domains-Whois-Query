@@ -1,0 +1,27 @@
+{
+	"name"   : "hwl/php-domains-whois",
+    "type"   : "library",
+	"description": "domain whois query library",
+    "keywords": ["php","domain","whois"],
+    "license": "Apache2",
+    "require": {
+      "php": ">=5.3.0",
+      "php-curl-class/php-curl-class": "^4.6",
+		"true/punycode": "~2.0",
+		"novutec/whoisparser": "^3.2"
+    },
+    "require-dev" : {
+	},
+    "autoload": {
+      "psr-4": {
+        "Hwl\\": "src/"
+      }
+    },
+    "repositories": [
+      {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+      {"packagist": false}
+    ],
+    "minimum-stability" : "dev"
+
+
+}
